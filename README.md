@@ -10,7 +10,7 @@
 [![Generic badge](https://img.shields.io/badge/pyautogui-latest-blue.svg)](https://pyautogui.readthedocs.io/en/latest/)
 
 # Get Started
-- If you want to just use it, use the release section to download the latest version
+- If you want to just use it, use the [![Generic badge](https://img.shields.io/badge/release-latest-blue.svg)](https://github.com/ericserafim/RobotNight-VpnLogger/releases/latest) to download the latest version
 - If you want to contribute with the project... **git clone** and go ahead!
 
 # How Do I use it?
