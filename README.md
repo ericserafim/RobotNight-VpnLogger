@@ -46,5 +46,5 @@ To run the project you can use two different approaches:
 
 # How Do I create my own EXE file?
 To create your own exe file you should install [![Generic badge](https://img.shields.io/badge/pyinstaller-latest-blue.svg)](https://www.pyinstaller.org/downloads.html) and follow the steps on <a href="https://pyinstaller.readthedocs.io/en/stable/usage.html">docs page</a> <br/>
-Also, you can run the command line **"pyinstaller vpnLogger.spec"**. The **vpnLogger.spec** file you can find in the files tree of this project
+Also, you can run the command line **"pyinstaller vpnLogger.spec"**. The **vpnLogger.spec** file you can find in the files tree of this project.
 
