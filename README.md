@@ -7,7 +7,6 @@
 [![Generic badge](https://img.shields.io/badge/pywinauto-latest-blue.svg)](https://pywinauto.readthedocs.io/en/latest/)
 [![Generic badge](https://img.shields.io/badge/pyperclip-latest-blue.svg)](https://pypi.org/project/pyperclip/)
 [![Generic badge](https://img.shields.io/badge/pyautogui-latest-blue.svg)](https://pyautogui.readthedocs.io/en/latest/)
-[![Generic badge](https://img.shields.io/badge/pyinstaller-latest-blue.svg)](https://www.pyinstaller.org/downloads.html)
 
 # Get Started
 - If you want to just use it, use the release section to download the latest version
@@ -42,4 +41,8 @@ At first, you should configure Robot Night properly. To do that you need to crea
 ### Running Robot Night
 To run the project you can use two different approaches:
 1) Running with Python command line or using **executor.bat** (it needs Python installed in your machine).
-2) Running the standalone version. Just double click on the **robotnight-vpnlogger.exe**
+2) Running the standalone version. Just double click on the **vpnLogger.exe**
+
+# How Do I create my own EXE file?
+To create your own exe file you should install [![Generic badge](https://img.shields.io/badge/pyinstaller-latest-blue.svg)](https://www.pyinstaller.org/downloads.html) and follow the steps on <a href="https://pyinstaller.readthedocs.io/en/stable/usage.html">docs page</a>
+
