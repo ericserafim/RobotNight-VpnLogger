@@ -41,7 +41,7 @@ At first, you should configure Robot Night properly. To do that you need to crea
 
 ### Running Robot Night
 To run the project you can use two different approaches:
-1) Running with Python command line or using **executor.bat** (it needs Python installed in your machine).
+1) Running with Python command line **python vpnLogger.py** or using **executor.bat** (it needs Python installed in your machine).
 2) Running the standalone version. Just double click on the **vpnLogger.exe**
 
 # How Do I create my own EXE file?
