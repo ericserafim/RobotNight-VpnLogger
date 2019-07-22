@@ -2,7 +2,7 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-# Dependencies
+### Dependencies
 [![Python 3.7.3](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Generic badge](https://img.shields.io/badge/pywinauto-latest-blue.svg)](https://pywinauto.readthedocs.io/en/latest/)
 [![Generic badge](https://img.shields.io/badge/pyperclip-latest-blue.svg)](https://pypi.org/project/pyperclip/)
