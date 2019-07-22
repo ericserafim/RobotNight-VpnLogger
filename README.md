@@ -1,4 +1,4 @@
-# RobotNight-VpnLogger
+# RobotNight-VpnLogger <img src="https://github.com/ericserafim/RobotNight-VpnLogger/blob/master/app-icon.svg" width="200px" align="right">
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/badge/release-latest-blue.svg)](https://github.com/ericserafim/RobotNight-VpnLogger/releases/latest)
@@ -43,9 +43,9 @@ At first, you should configure Robot Night properly. To do that you need to crea
 ### Running Robot Night
 To run the project you can use two different approaches:
 1) Running with Python command line **"python vpnLogger.py"** or using **executor.bat** (it needs Python installed in your machine).
-2) Running the standalone version. Just double click on the **vpnLogger.exe**
+2) Running the standalone version. Just double click on the **RobotNight-VpnLogger.exe**
 
 # How Do I create my own EXE file?
 To create your own exe file you should install [![Generic badge](https://img.shields.io/badge/pyinstaller-latest-blue.svg)](https://www.pyinstaller.org/downloads.html) and follow the steps on <a href="https://pyinstaller.readthedocs.io/en/stable/usage.html">docs page</a> <br/>
-Also, you can run the command line **"pyinstaller vpnLogger.spec"**. The **vpnLogger.spec** file you can find in the files tree of this project.
+Also, you can run the command line **"pyinstaller robotnight.spec"**. The **robotnight.spec** file you can find in the files tree of this project.
 
