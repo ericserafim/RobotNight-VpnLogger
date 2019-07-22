@@ -1,4 +1,6 @@
 # RobotNight-VpnLogger <img src="https://github.com/ericserafim/RobotNight-VpnLogger/blob/master/app-icon.svg" width="200px" align="right">
+You need just one click to log in your VPN. Robot Night will open RSA to get a token and then login GlobalProtect. It is easy as like as you are reading!
+
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/badge/release-latest-blue.svg)](https://github.com/ericserafim/RobotNight-VpnLogger/releases/latest)
