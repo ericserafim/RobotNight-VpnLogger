@@ -38,20 +38,14 @@ def vpn_stuff():
         pyautogui.typewrite(config.VPN_PASSWORD)         
         pyautogui.press('enter')
 
-        if isConnected(1): return
-
         #Second Login with RSA Token
-        if wait_for_image_on_screen('sign.png') == False:
-          print("Failed to login on VPN using RSA Token")
-          return
-
-        pyautogui.typewrite(config.VPN_USERNAME) 
-        pyautogui.press('tab')     
-        pyautogui.typewrite(rsa_token)
-        pyautogui.press('enter')
-
-        #Check if is connected                
-        isConnected(2)  
+        if wait_for_image_on_screen('sign.png'):
+           pyautogui.typewrite(config.VPN_USERNAME) 
+           pyautogui.press('tab')     
+           pyautogui.typewrite(rsa_token)
+           pyautogui.press('enter')
+        
+        isConnected(1)
 
 def wait_for_image_on_screen(imagePath):
         print(f"Searching for image {imagePath}...")
@@ -65,7 +59,8 @@ def wait_for_image_on_screen(imagePath):
 
 def isConnected(step):                
         if wait_for_image_on_screen('connected.png') == False: 
-           print(f'"Failed to connect on VPN.{step == 1 if "Trying to use RSA Token" else ""}"') 
+           #print(f'"Failed to connect on VPN. {step == 1 if "Trying to use RSA Token" else ""}"') 
+           print("Failed to connect on VPN.") 
            return False           
         else:
            print("Connected")
