@@ -14,7 +14,7 @@ You need just one click to log in your VPN. Robot Night will open RSA to get a t
 # Get Started
 - If you want to just use it, use the [![Generic badge](https://img.shields.io/badge/release-latest-blue.svg)](https://github.com/ericserafim/RobotNight-VpnLogger/releases/latest) to download the latest version
 - If you want to contribute with the project... **git clone** and go ahead!<br/>
-## ******** It works just with GlobalProtect VPN ********
+## ******** It works only with GlobalProtect VPN ********
 
 # How Do I use it?
 At first, you should configure Robot Night properly. To do that you need to create the **appsettings.json** file following the instructions below:
